@@ -1,59 +1,69 @@
-name = input("enter your name:")
-age= input("enetr your age:")
-print(f"hii my name is {name} and my age is {age}")
+# name = input("enter your name:")
+# age= input("enetr your age:")
+# print(f"hii my name is {name} and my age is {age}")
 
 
-a=20
-b = int("22")
-print(a+b)
+# a=20
+# b = int("22")
+# print(a+b)
 
 
-Arithmetic operators
+# Arithmetic operators
 
-a=5
-b=20
-print(a+b)
-print(b-a)
-print(a*b)
-print(b/a)
-print(b//a)
-print(5**2)
-print(32%5)
+# a=5
+# b=20
+# print(a+b)
+# print(b-a)
+# print(a*b)
+# print(b/a)
+# print(b//a)
+# print(5**2)
+# print(32%5)
 
 
-Assignment operators
+# Assignment operators
 
-compound assignment operator
-a=20
-a+=20
-a+=40
-a+=60
-print(a)
+# compound assignment operator
+# a=20
+# a+=20
+# a+=40
+# a+=60
+# print(a)
 
-+= add and assign
--= subtract and assign
-*= multiply and assign
-/= divide and assign
-//= floor divide and assign
-%= modules and assign
-**= exponentiation and assign (power)
+# += add and assign
+# -= subtract and assign
+# *= multiply and assign
+# /= divide and assign
+# //= floor divide and assign
+# %= modules and assign
+# **= exponentiation and assign (power)
  
 
 
-comparison operators----- true or false
+# comparison operators----- true or false
 
-a=12
-b=12
-print(a==b)
-print(a!=b)
-print(a>=b)
-print(a<=b)
+# a=12
+# b=12
+# print(a==b)
+# print(a!=b)
+# print(a>=b)
+# print(a<=b)
 
 
 
-logical oprators
-and,or,not
-print(True and bool(0))
+# logical oprators
+# and,or,not
+# print(True and bool(0))
+
+
+
+age= int(input("enter your age"))
+if age >=18 and age<=150:
+    print("you are eligible for voting")
+elif age<0 or age>120:
+    print("enter valid age")
+else:
+    print("you are under age")
 
 
 
