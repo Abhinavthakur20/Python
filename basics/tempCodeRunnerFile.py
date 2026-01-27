@@ -1,5 +1,3 @@
-C = {1,2,3,4,5}
-D = {3,4,5}
-
-symD = C.symmetric_difference(D)
-print(symD)
+t = {10:100,20:200,30:300,40:400}
+for i in t:
+    print(t[i])

@@ -1,0 +1,32 @@
+# DICTIONARY ------
+# MUTABLE - MEANINGG YOU CAN CHANGE ,ADD, REMOVE KEY VALUE PAIRS AFTER CREATION
+# DUPLICATES - KEY MUST BE UNIQUE BUT YOU CAN HAVE DUPLICATE IN VALUE
+# ORDER - FOLLOWS INSERTION ORDER
+# HETEROGENEOUS - A DICT CAN STORE MULTIPLE TYPE OF KEYS AND VALUES (INT,LIST,STRING,ANOTHER DICT)
+
+
+# example
+
+d = {10:100,20:200,30:300,40:400}
+
+#update
+d[10]=1000
+print(d)
+
+#create
+# d.update({50:500}) 
+d[50]=5000
+print(d)
+
+
+#delete
+del d[30]
+print(d)
+
+
+
+# dict tranversing
+
+t = {10:100,20:200,30:300,40:400}
+for i in t:
+    print(t[i])
